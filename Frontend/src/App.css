@@ -1,0 +1,168 @@
+/* write your css here */
+/* write your css here */
+.homePageWrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.formWrapper{
+    background: #282a36;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+footer a{
+    color: #4aee88;
+}
+/* .inputBox */
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+
+}
+.mainLabel{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.homePageLogo{
+    height: 80px;
+    margin-bottom: 30px;
+}
+.inputBox{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background: #eee;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+.btn{
+   border: none;
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+   color: black;
+   background-color: #eee;
+   font-weight: bold;
+}
+.joinBtn,.leavebtn{
+   background: #4aee88;
+
+   width: 100px;
+   margin: auto;
+
+}
+
+.joinBtn,.leavebtn:hover{
+    background: #2b824c;
+}
+.createInfo{
+    
+    /* margin: auto; */
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.createNewBtn{
+    color: #4aee88;
+    text-decoration: none;
+    border-bottom: 1px solid #4aee88 ;
+    transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,footer a:hover{
+    color: #368654;
+    border-color: #2b824c;
+}
+.mainWrap{
+    display: grid;
+    grid-template-columns: 230px 1fr;
+    /* height: 100vh; */
+}
+
+.aside{
+   background: #1c1e29;
+   padding: 16px;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   width: 270px;
+    border-right: 1px solid green;
+
+}
+
+.aside_inner{
+    /* display: flex; */
+    flex: 1;
+}
+
+.clientList{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 10px;
+}
+.client{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+.connect{
+    font-weight: 700;
+}
+.userName{
+    margin-top: 5px;
+}
+
+.logo{
+    border-bottom: 1px solid #424242;
+    padding-bottom: 10px;
+}
+.logoImage{
+    height: 60px;
+}
+.leavebtn{
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+.CodeMirror{
+ /* height: 100vh;
+  */
+  min-height: 100vh;
+ font-size: 18px;
+ line-height: 1.6;
+ padding-top: 20px;
+}
+.editorWrap{
+    /* background-color: #eee; */
+    height: 100vh;
+}
+
+.tic-tac-toe{
+    width: 90%;
+    max-width: 15rem;
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 1rem;
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    aspect-ratio: 1/1;
+
+}
